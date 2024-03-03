@@ -8,11 +8,21 @@ hr {
 }
 #aContentBox {
   width: 50%;
-  border: 3px solid #FFFFFF;
+  border: 3px solid;
   height: 100%;
   background-color: #606060;
   text-align: left;
   margin: auto;
+}
+@keyFrames colorChange {
+	 0% { border-color: red; }
+  25% { border-color: yellow; }
+  50% { border-color: green; }
+  75% { border-color: blue; }
+  100% { border-color: red; }
+}
+#aContentBox {
+	animation: colorChange 1s infinite alternate;
 }
 @media screen and (max-width: 1000px) {
   #aContentBox {
