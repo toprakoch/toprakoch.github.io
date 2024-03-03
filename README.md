@@ -1,1 +1,1 @@
-<a href="https://toprakoch.github.io/">toprakoch.github.io</a>
+<a href="https://toprakoch.github.io/"  target="_blank">toprakoch.github.io</a>
